@@ -1,6 +1,6 @@
 FROM debian:latest
 MAINTAINER Kohei Yoshikawa <marimo3418@neko2.net>
-# 2021.04.12 Updated
+# 2021.07.16 Updated
 WORKDIR /opt
 RUN apt update \
     && apt upgrade -y \

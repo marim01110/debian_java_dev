@@ -1,4 +1,4 @@
-FROM debian:stable-20210621-slim
+FROM debian:stable-20210621
 MAINTAINER Kohei Yoshikawa <marimo3418@neko2.net>
 # 2021.07.16 Updated
 WORKDIR /opt

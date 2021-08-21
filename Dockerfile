@@ -1,6 +1,6 @@
-FROM debian:stable-20210721
+FROM debian:bullseye-20210816
 MAINTAINER Kohei Yoshikawa <marimo3418@neko2.net>
-# 2021.08.01 Updated
+# 2021.08.21 Updated
 WORKDIR /opt
 RUN apt update \
     && apt upgrade -y \

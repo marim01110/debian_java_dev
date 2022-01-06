@@ -1,6 +1,6 @@
-FROM openjdk:openjdk:17-jdk-slim
+FROM openjdk:17-jdk-slim
 MAINTAINER Kohei Yoshikawa <admin@marihome.tk>
-# 2021.09.16 Updated
+# 2022.01.06 Updated
 WORKDIR /opt
 RUN apt update \
     && apt upgrade -y \
